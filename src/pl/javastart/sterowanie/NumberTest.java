@@ -2,7 +2,7 @@ package pl.javastart.sterowanie;
 
 public class NumberTest {
     public static void main(String[] args) {
-        int a = 5;
+        int a = 101;
 
         if ( a%2 == 0) {
             System.out.println("Liczba jest parzysta");
@@ -23,5 +23,23 @@ public class NumberTest {
         } else if (a * a < 100)  {
             System.out.println(a + " jest mniejsza od 100");
         }
+
+
+        if (a > 0) {
+            System.out.println("Libcza wieksza od 0");
+        } else if (a > 100) {
+            System.out.println("Liczba większa od 100;");
+        }
+
+        if (a > 0) {
+            System.out.println("Libcza wieksza od 0");
+        }
+        if  (a > 100) {
+            System.out.println("Liczba większa od 100;");
+        }
+
+        
+
+
     }
 }

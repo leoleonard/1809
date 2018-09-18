@@ -38,7 +38,7 @@ public class NumberTest {
             System.out.println("Liczba większa od 100;");
         }
 
-        
+
 
 
     }

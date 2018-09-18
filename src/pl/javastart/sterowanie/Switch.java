@@ -18,5 +18,7 @@ public class Switch {
             default:
                 System.out.println("żadna z powyższych");
         }
+
+        // w switch porownujemy konkretne wartosci
     }
 }

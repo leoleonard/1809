@@ -3,7 +3,7 @@ package pl.javastart.sterowanie;
 public class Switch {
     public static void main(String[] args) {
         int number = 9;
-        int result = 9 % 2;
+        int result = number % 2;
 
         switch(result) {
             case 0:
